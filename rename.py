@@ -2,11 +2,16 @@ from distutils import extension
 import os
 import re
 import requests
-apiKey = 'api_key=08d85f47ee3b13f3aee2110785af86fa'
-apiUrl = 'https://api.themoviedb.org/3/'
 
-#response = requests.get(apiUrl, timeout=2)
-#print(response.json())
+
+# TODO: add thetvdb api functionality
+# TODO: allow recursive sub-folder access
+# TODO: automatically create directories for shows and seasons
+# TODO: differentiate between shows and movies
+# TODO: allow access to server to move files into respective directories or create new directory if not exists
+
+
+
 #convert list to string
 def listToString(s):
     string1 = '' 
